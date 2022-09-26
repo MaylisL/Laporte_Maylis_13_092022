@@ -1,0 +1,32 @@
+.edit-form  {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.edit-title {
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.inputs, .buttons {
+    display: flex;
+    justify-content: center;
+    column-gap: 2em;
+}
+.input-edit  {
+    width: 20%;
+    border-color: grey;
+    color: grey;
+    border-radius: 2px;
+    padding:5px;
+}
+
+.button-edit {
+    width: 15%;
+}
